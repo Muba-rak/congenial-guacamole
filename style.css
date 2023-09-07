@@ -1,6 +1,13 @@
+.socials a:hover{
+    cursor: pointer;
+}
 .card{
-    width: 20rem;
+    width: 19rem;
     margin: 2px auto;
+}
+.img{
+    height: 250px;
+    object-fit: cover;
 }
 @media (min-width: 768px){
     .card{
