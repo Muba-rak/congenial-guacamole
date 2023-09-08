@@ -77,14 +77,14 @@ function showProjects() {
                 <p class="card-text">
                  ${desc}
                 </p>
+                <div class= 'd-flex gap-3 align-items-center'>
                 <a href = ${github} class='text-decoration-none'>
                     <i style="cursor: pointer" class="bi bi-github fs-4 text-dark"></i>
                 </a>
                 <a href = ${web} class='text-decoration-none'>
                    <i style="cursor: pointer" class="bi bi-browser-edge fs-4 text-secondary"></i>
                 </a>
-                
-          
+                </div>
               </div>
             </div>
       `;
